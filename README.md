@@ -4,9 +4,9 @@ This is the backend API for the Virtual Card system, built using C# and .NET. It
 # Tech Stack
 - C#
 - .NET API
-- Entity Framework Core (if using a database)
-- SQL Server or any other database
-- JWT Authentication (if applicable)
+- Entity Framework Core 
+- SQL Server
+- JWT Authentication(for hundling tokens)
 - Setup & Installation
   
 # Clone the Repository
@@ -16,19 +16,20 @@ This is the backend API for the Virtual Card system, built using C# and .NET. It
 # Install Dependencies
 - dotnet restore
   
-#Set Up Database
+# Set Up Database
 - Configure your connection string in appsettings.json.
 - Run migrations (if using EF Core):
   - dotnet ef database update
+  - dotnet ef database update --project virtual-card-backend (if you need to specify the project)
 # Run the API
 - dotnet run
   
-#API Documentation
+# API Documentation
 - If using Swagger, open http://localhost:<port>/swagger to view available endpoints.
   
-#Features
-✔️ User authentication (JWT-based)
-✔️ Virtual card creation & management
-✔️ Transaction handling
-✔️ Secure RESTful API design
+# Features
+-  User authentication (JWT-based)✔️
+-  Virtual card creation & management✔️
+-  Transaction handling✔️ 
+-  Secure RESTful API design✔️
 
