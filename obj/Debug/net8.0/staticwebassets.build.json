@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "pZa8dxYsnnMCM7RSVjjy0GV4ptJ/rjAMHcihtUwQ5vo=",
+  "Source": "VirtualCardAPI",
+  "BasePath": "_content/VirtualCardAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
